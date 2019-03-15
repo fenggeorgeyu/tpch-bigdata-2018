@@ -4,7 +4,7 @@ tpch_dir=$1
 
 $HADOOP_HOME/bin/hadoop fs -mkdir ${tpch_dir}/ 
 $HADOOP_HOME/bin/hadoop fs -chmod 755 ${tpch_dir}/
-echo "mkdir /${tpch_dir}/"
+echo "mkdir ${tpch_dir}/"
 
 $HADOOP_HOME/bin/hadoop fs -mkdir ${tpch_dir}/customer
 echo "mkdir customer"
