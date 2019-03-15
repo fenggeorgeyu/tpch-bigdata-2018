@@ -42,7 +42,7 @@ $HADOOP_HOME/bin/hadoop fs -rm ${tpch_dir}/nation/nation.tbl
 $HADOOP_HOME/bin/hadoop fs -copyFromLocal nation.tbl ${tpch_dir}/nation/
 echo "nation"
 
-$HADOOP_HOME/bin/hadoop fs -rm ${tpch_dir}/orders/orders.tbl
+$HADOOP_HOME/bin/hadoop fs -rm ${tpch_dir}/order/order.tbl
 $HADOOP_HOME/bin/hadoop fs -copyFromLocal order.tbl ${tpch_dir}/orders/
 echo "orders"
 
